@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <style>
+      #track {
+        position: absolute;
+        top: 30px;
+        opacity: 0;
+        transition: 1s opacity ease-in-out;
+      }
+      #track:hover {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <audio
+      id="track"
+      src="tracks/Oake - Zafrire [47019].mp3"
+      loop
+      controls
+    ></audio>
+    <script src="bundle.js"></script>
+  </body>
+</html>
