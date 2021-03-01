@@ -16,7 +16,7 @@
     "glsl-halftone": "^1.0.4",
     "glsl-hash-blur": "^1.0.2",
     "glsl-noise": "0.0.0",
-    "three": "^0.84.0",
+    "three": "^0.125.0",
     "three-orbit-viewer": "^69.3.1"
   },
   "devDependencies": {
